@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+section {
+    margin: 20px 0;
+}
+
+#sobre {
+    display: flex;
+    justify-content: space-around;
+}
+
+#sobre img {
+    max-width: 45%;
+}
+
+#sobre p {
+    max-width: 45%;
+}
+
+#produtos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produto {
+    flex-basis: 20%;
+    margin: 10px;
+    text-align: center;
+}
+
+.produto img {
+    max-width: 100%;
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+}
